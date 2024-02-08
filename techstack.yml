@@ -1,0 +1,151 @@
+repo_name: rgunindi/parse-go
+report_id: 548518a64c1b1cfd668573fd353f9f50
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:42:13+00:00'
+requested_by: rgunindi
+provider: github
+branch: main
+detected_tools_count: 10
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/rgunindi/parse-go
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/dao/parseMongo.go
+  detection_source: dao/parseMongo.go
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/parse-go
+  detection_source: Repo Metadata
+- name: compress
+  description: Optimized compression packages
+  package_url: https://pkg.go.dev/github.com/klauspost/compress
+  version: 1.13.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.9.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: montanaflynn/stats
+  description: A statistics package with common functions that are missing from the
+    Golang standard library
+  package_url: https://pkg.go.dev/github.com/montanaflynn/stats
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/rgunindi/parse-go/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Ramazan
+  last_updated_on: 2023-03-22 08:51:50.000000000 Z
